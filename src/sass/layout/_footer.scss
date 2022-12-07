@@ -1,0 +1,29 @@
+.footer {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 77px;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  &__list {
+    display: flex;
+    gap: 80px;
+  }
+
+  &__link {
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--main-title-color);
+    }
+  }
+}
