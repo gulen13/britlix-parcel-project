@@ -1,21 +1,4 @@
-@import './utilities/current';
-@import './utilities/variables';
-@import './utilities/visually-hidden';
-
-@import './base/base';
 @import './base/common';
-@import './base/reset';
-
-@import './components/button';
-@import './components/container';
-@import './components/logo';
-@import './components/section';
-@import './components/title';
-
-@import './layout/header';
-@import './layout/hero';
-@import './layout/skills';
-@import './layout/about';
-@import './layout/price';
-@import './layout/contact';
-@import './layout/footer';
+@import './utilities/utils';
+@import './components/components';
+@import './layout/layout';
