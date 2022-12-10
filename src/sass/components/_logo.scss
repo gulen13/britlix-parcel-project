@@ -1,4 +1,9 @@
 .logo {
   font-size: 36px;
   line-height: calc(54 / 36);
+  color: var(--main-title-color);
+}
+
+.logo__span {
+  color: #939393;
 }
