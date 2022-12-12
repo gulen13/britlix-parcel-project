@@ -1,0 +1,32 @@
+.about {
+  &__container {
+    display: flex;
+    gap: 144px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    width: 654px;
+    line-height: calc(36 / 20);
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 131px;
+  }
+
+  &__item {
+    max-width: 108px;
+    text-align: center;
+  }
+
+  &__item-title {
+    margin-bottom: 6px;
+    color: #2a3246;
+  }
+
+  &__item-text {
+    line-height: calc(30 / 20);
+  }
+}
